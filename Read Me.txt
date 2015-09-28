@@ -1,0 +1,17 @@
+The program has multiple .java files in the project namespace that are required for proper execution of the program. In order to run the program, you need to run ViterbiDecodingAlgorithm.java. <this is the main .java file>
+  
+The program can be executed on any platform. To run ViterbiDecodingAlgorithm.java follows the steps mentioned below:
+
+Tested on Windows Cmd Prompt:
+
+Step 1 : > javac  *.java
+Step 2: > java ViterbiDecodingAlgorithm <model file> < test file> 
+EX : \\ViterbiDecodingAlgorithm\src\com\vda> java ViterbiDecodingAlgorithm model.dat test.dat 
+
+The program takes 2 arguments -
+First Argument      : type the name of the model file, example "model.dat". <with no path infront of it> <pathinfo>
+Second Argument : type the name of the test file, example "test.dat". <with no path infront of it> <pathinfo>
+
+Any number of arguments less or more than 2 will cause the program to exit.
+
+<pathinfo> - The path is already feed in the program. It takes these files from the Input folder inside the Main Project folder. If you want to test the program on new files other than the onces given to us, please drop these files in the Input folder and pass only the name of the file as an argument to the program.
